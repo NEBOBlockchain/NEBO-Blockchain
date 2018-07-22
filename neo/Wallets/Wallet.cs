@@ -365,7 +365,7 @@ namespace Neo.Wallets
                 {
                     Version = itx.Version,
                     Script = itx.Script,
-                    Gas = InvocationTransaction.GetGas(engine.GasConsumed),
+                    Fuel = InvocationTransaction.GetFuel(engine.FuelConsumed),
                     Attributes = itx.Attributes,
                     Inputs = itx.Inputs,
                     Outputs = itx.Outputs
