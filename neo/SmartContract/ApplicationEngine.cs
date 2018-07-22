@@ -42,20 +42,20 @@ namespace Neo.SmartContract
         #endregion
 
         private const long ratio = 100000;
-        private const long gas_free = 10 * 100000000;
-        private readonly long gas_amount;
-        private long gas_consumed = 0;
+        private const long fuel_free = 10 * 100000000;
+        private readonly long fuel_amount;
+        private long fue;_consumed = 0;
         private readonly bool testMode;
 
         private readonly CachedScriptTable script_table;
 
         public TriggerType Trigger { get; }
-        public Fixed8 GasConsumed => new Fixed8(gas_consumed);
+        public Fixed8 FuelConsumed => new Fixed8(fuel_consumed);
 
-        public ApplicationEngine(TriggerType trigger, IScriptContainer container, IScriptTable table, InteropService service, Fixed8 gas, bool testMode = false)
+        public ApplicationEngine(TriggerType trigger, IScriptContainer container, IScriptTable table, InteropService service, Fixed8 fuel, bool testMode = false)
             : base(container, Cryptography.Crypto.Default, table, service)
         {
-            this.gas_amount = gas_free + gas.GetData();
+            this.fuel = fuel_free + fuel.GetData();
             this.testMode = testMode;
             this.Trigger = trigger;
             if (table is CachedScriptTable)
