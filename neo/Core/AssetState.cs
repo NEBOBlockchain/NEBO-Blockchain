@@ -94,7 +94,7 @@ namespace Neo.Core
         public string GetName(CultureInfo culture = null)
         {
             if (AssetType == AssetType.GoverningToken) return "NEO";
-            if (AssetType == AssetType.UtilityToken) return "NeoGas";
+            if (AssetType == AssetType.UtilityToken) return "NeoFuel";
             if (_names == null)
             {
                 JObject name_obj;
