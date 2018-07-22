@@ -21,35 +21,37 @@ NEO vs NEBO (Why NEBO?)
 --------
 NEO
 --------
-Name: NEO
-Symbol: NEO
-Total Supply: 100 Million (100000000)
-Circulating Supply: 50 Million (50000000)
-Utility Token: Gas
-Country Based: China
-Default Language: Mandarin
-Smart Contract Languages: C#, Java, Kotlin, Python + More In Future Updates
-Smart Contract Issue Price: 500 Gas ($5504 USD 7/21/2018)
+*Name: NEO
+*Symbol: NEO
+*Total Supply: 100 Million (100000000)
+*Circulating Supply: 50 Million (50000000)
+*Utility Token: Gas
+*Country Based: China
+*Default Language: Mandarin
+*Smart Contract Languages: C#, Java, Kotlin, Python + More In Future Updates
+*Smart Contract Issue Price: 500 Gas ($5504 USD 7/21/2018)
 
 
 NEBO
 ---------
-Name: Neo English Blockchain Option
-Symbol: NEBO
-Total Supply: 1 Billion (1000000000)
-Circulating Supply: 900 Million (900000000)
-Utility Token: Fuel
-Fuel Total Supply: 1 Billion (1000000000)
-Country Based: Canada
-Default Language: English
-Smart Contract Languages: C#, Java, Kotlin, Python + More In Future Updates
-Smart Contract Issue Price: 1 Fuel (USD N/A)
+*Name: Neo English Blockchain Option
+*Symbol: NEBO
+*Total Supply: 1 Billion (1000000000)
+*Circulating Supply: 900 Million (900000000)
+*Utility Token: Fuel
+*Fuel Total Supply: 1 Billion (1000000000)
+*Country Based: Canada
+*Default Language: English
+*Smart Contract Languages: C#, Java, Kotlin, Python + More In Future Updates
+*Smart Contract Issue Price: 1 Fuel (USD N/A)
 
 NEBO Vision
 --------
 Our vision is to recreate NEO and change the blockchain to fit needs of a different audience
 * Create a Blockchain that mimics the perks of the NEO blockchain and bring it to the english world for faster English Development, Documentation and English prodominent Asset Creation.
 * Lowering the cost of Asset creation significantly to allow people to create complex smart contracts in multiple programming languages without costing the developer thousands of dollars.
+* Increasing the total supply x10 to keep NEBO prices low to allow people to invest in the coin without risking more than a small ammount.
+* To create Dapps, Web Apps and Other software to intereact with NEBO blockchain to further develop NEBO and NEO.
 
 
 
