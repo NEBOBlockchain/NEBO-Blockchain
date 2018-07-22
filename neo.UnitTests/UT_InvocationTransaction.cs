@@ -38,17 +38,17 @@ namespace Neo.UnitTests
         }
 
         [TestMethod]
-        public void Gas_Get()
+        public void Fuel_Get()
         {
-            uut.Gas.Should().Be(Fixed8.Zero);
+            uut.Fuel.Should().Be(Fixed8.Zero);
         }
 
         [TestMethod]
-        public void Gas_Set()
+        public void Fuel_Set()
         {
             Fixed8 val = Fixed8.FromDecimal(42);
-            uut.Gas = val;
-            uut.Gas.Should().Be(val);
+            uut.Fuel = val;
+            uut.Fuel.Should().Be(val);
         }
 
         [TestMethod]
@@ -71,10 +71,10 @@ namespace Neo.UnitTests
         }
 
         [TestMethod]
-        public void SystemFee_Get_FromGas()
+        public void SystemFee_Get_FromFuel()
         {
             Fixed8 val = Fixed8.FromDecimal(42);
-            uut.Gas = val;
+            uut.Fuel = val;
             uut.SystemFee.Should().Be(val);
         }
 
@@ -82,7 +82,7 @@ namespace Neo.UnitTests
         public void SystemFee_Set()
         {
             Fixed8 val = Fixed8.FromDecimal(42);
-            uut.Gas = val;
+            uut.Fuel = val;
             uut.SystemFee.Should().Be(val);
         }
 
@@ -91,8 +91,8 @@ namespace Neo.UnitTests
         {
             byte[] scriptVal = TestUtils.GetByteArray(32, 0x42);
             uut.Script = scriptVal;
-            Fixed8 gasVal = Fixed8.FromDecimal(42);
-            uut.Gas = gasVal;
+            Fixed8 fuelVal = Fixed8.FromDecimal(42);
+            uut.Fuel = fuelVal;
 
             uut.Attributes = new TransactionAttribute[0];
             uut.Inputs = new CoinReference[0];
@@ -113,7 +113,7 @@ namespace Neo.UnitTests
             ((JArray)jObj["scripts"]).Count.Should().Be(0);
 
             jObj["script"].AsString().Should().Be("4220202020202020202020202020202020202020202020202020202020202020");
-            jObj["gas"].AsNumber().Should().Be(42);
+            jObj["fuel"].AsNumber().Should().Be(42);
         }
     }
 }
