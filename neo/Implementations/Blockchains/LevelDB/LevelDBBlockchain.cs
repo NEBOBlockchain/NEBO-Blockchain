@@ -585,7 +585,7 @@ namespace Neo.Implementations.Blockchains.LevelDB
                     case InvocationTransaction tx_invocation:
                         using (StateMachine service = new StateMachine(block, accounts, assets, contracts, storages))
                         {
-                            ApplicationEngine engine = new ApplicationEngine(TriggerType.Application, tx_invocation, script_table, service, tx_invocation.Gas);
+                            ApplicationEngine engine = new ApplicationEngine(TriggerType.Application, tx_invocation, script_table, service, tx_invocation.Fuel);
                             engine.LoadScript(tx_invocation.Script, false);
                             if (engine.Execute())
                             {
@@ -596,7 +596,7 @@ namespace Neo.Implementations.Blockchains.LevelDB
                                 Trigger = TriggerType.Application,
                                 ScriptHash = tx_invocation.Script.ToScriptHash(),
                                 VMState = engine.State,
-                                GasConsumed = engine.GasConsumed,
+                                Fuel = engine.FuelConsumed,
                                 Stack = engine.EvaluationStack.ToArray(),
                                 Notifications = service.Notifications.ToArray()
                             });
