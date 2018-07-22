@@ -1,9 +1,9 @@
-NEO: A distributed network for the Smart Economy
+NEBO: Neo English Blockchain Option
 ================
 
-NEO uses digital identity and blockchain technology to digitize assets and leverages smart contracts for autonomously managed digital assets to create a "smart economy" within a decentralized network.
+NEBO is a new blockchain that uses NEO artitecure to acheive similar results with creating alternative features to the blockchain.
 
-To learn more about NEO, please read the [White Paper](http://docs.neo.org/en-us/index.html)|[白皮书](http://docs.neo.org/zh-cn/index.html).
+To learn more about NEBO, please read the [White Paper](Insert White Paper URL)
 
 Supported Platforms
 --------
@@ -17,29 +17,41 @@ We already support the following platforms:
 * Ubuntu 14.04, Ubuntu 14.10, Ubuntu 15.04, Ubuntu 15.10, Ubuntu 16.04, Ubuntu 16.10
 * Windows 7 SP1 +, Windows Server 2008 R2 +
 
-We will support the following platforms in the future:
-
-* Debian
-* Fedora
-* FreeBSD
-* Linux Mint
-* OpenSUSE
-* Oracle Linux
-
-Development
+NEO vs NEBO (Why NEBO?)
 --------
+NEO
+--------
+Name: NEO
+Symbol: NEO
+Total Supply: 100 Million (100000000)
+Circulating Supply: 50 Million (50000000)
+Utility Token: Gas
+Country Based: China
+Default Language: Mandarin
+Smart Contract Languages: C#, Java, Kotlin, Python + More In Future Updates
+Smart Contract Issue Price: 500 Gas ($5504 USD 7/21/2018)
 
-To start building peer applications for NEO on Windows, you need to download [Visual Studio 2017](https://www.visualstudio.com/products/visual-studio-community-vs), install the [.NET Framework 4.7 Developer Pack](https://www.microsoft.com/en-us/download/details.aspx?id=55168) and the [.NET Core SDK](https://www.microsoft.com/net/core).
 
-If you need to develop on Linux or macOS, just install the [.NET Core SDK](https://www.microsoft.com/net/core).
+NEBO
+---------
+Name: Neo English Blockchain Option
+Symbol: NEBO
+Total Supply: 1 Billion (1000000000)
+Circulating Supply: 900 Million (900000000)
+Utility Token: Fuel
+Fuel Total Supply: 1 Billion (1000000000)
+Country Based: Canada
+Default Language: English
+Smart Contract Languages: C#, Java, Kotlin, Python + More In Future Updates
+Smart Contract Issue Price: 1 Fuel (USD N/A)
 
-To install Neo SDK to your project, run the following command in the [Package Manager Console](https://docs.nuget.org/ndocs/tools/package-manager-console):
+NEBO Vision
+--------
+Our vision is to recreate NEO and change the blockchain to fit needs of a different audience
+* Create a Blockchain that mimics the perks of the NEO blockchain and bring it to the english world for faster English Development, Documentation and English prodominent Asset Creation.
+* Lowering the cost of Asset creation significantly to allow people to create complex smart contracts in multiple programming languages without costing the developer thousands of dollars.
 
-```
-PM> Install-Package Neo
-```
 
-For more information about how to build DAPPs for NEO, please read the [documentation](http://docs.neo.org/en-us/sc/introduction.html)|[文档](http://docs.neo.org/zh-cn/sc/introduction.html).
 
 How to Contribute
 --------
