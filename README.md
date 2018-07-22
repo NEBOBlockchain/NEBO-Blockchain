@@ -21,29 +21,29 @@ NEO vs NEBO (Why NEBO?)
 --------
 NEO
 --------
-*Name: NEO
-*Symbol: NEO
-*Total Supply: 100 Million (100000000)
-*Circulating Supply: 50 Million (50000000)
-*Utility Token: Gas
-*Country Based: China
-*Default Language: Mandarin
-*Smart Contract Languages: C#, Java, Kotlin, Python + More In Future Updates
-*Smart Contract Issue Price: 500 Gas ($5504 USD 7/21/2018)
+* Name: NEO
+* Symbol: NEO
+* Total Supply: 100 Million (100000000)
+* Circulating Supply: 50 Million (50000000)
+* Utility Token: Gas
+* Country Based: China
+* Default Language: Mandarin
+* Smart Contract Languages: C#, Java, Kotlin, Python + More In Future Updates
+* Smart Contract Issue Price: 500 Gas ($5504 USD 7/21/2018)
 
 
 NEBO
 ---------
-*Name: Neo English Blockchain Option
-*Symbol: NEBO
-*Total Supply: 1 Billion (1000000000)
-*Circulating Supply: 900 Million (900000000)
-*Utility Token: Fuel
-*Fuel Total Supply: 1 Billion (1000000000)
-*Country Based: Canada
-*Default Language: English
-*Smart Contract Languages: C#, Java, Kotlin, Python + More In Future Updates
-*Smart Contract Issue Price: 1 Fuel (USD N/A)
+* Name: Neo English Blockchain Option
+* Symbol: NEBO
+* Total Supply: 1 Billion (1000000000)
+* Circulating Supply: 900 Million (900000000)
+* Utility Token: Fuel
+* Fuel Total Supply: 1 Billion (1000000000)
+* Country Based: Canada
+* Default Language: English
+* Smart Contract Languages: C#, Java, Kotlin, Python + More In Future Updates
+* Smart Contract Issue Price: 1 Fuel (USD N/A)
 
 NEBO Vision
 --------
@@ -83,4 +83,4 @@ Note: It is OK for your PR to include a large number of commits. Once your chang
 License
 ------
 
-The NEO project is licensed under the [MIT license](LICENSE).
+The NEBO project is licensed under the [MIT license](LICENSE).
